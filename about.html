@@ -36,21 +36,23 @@
         <script src="js/respond.min.js"></script>
     <![endif]-->
 <style>
-.container1{
-height: 80px;
+.title{
+height: 25%;
+background-image: url("images/white.jpg");
 }
-.heading-1{
-color: black;
-font-size: 60px;
-font-family: "Helvetica",Times, serif;
-margin-top: 20px;
-margin-left: 300px;
+
+.title .row .heading h1{
+font-family: "Helvetica";
+font-size: 320%
 }
 body{
+background-image: url("images/white.jpg");
+}
+.content{
 background-image: url("images/coffee-laptop.jpg");
 background-size: cover;
 }
-h1{
+.content .row h1{
 color: white;
 font-family: "Arial Narrow";
 font-weight: bold;
@@ -76,12 +78,11 @@ font-size: 17px;
 <header>
 	<!--Top-->
 	<nav id="top">
-		<div class="container1">
+		<div class="title container">
 			<div class="row">
-				<div class="heading-1">
-					<strong>THE CUMMINS CHRONICLE</strong>
+				<div class="heading col-sm-8 col-sm-offset-2 text-center">
+					<h1>The Cummins Chronicle</h1>
 				</div>
-				
 			</div>
 		</div>
 	</nav>
@@ -113,7 +114,7 @@ font-size: 17px;
 
 <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <!--<header class="intro-header" style="background-image: url('img/Article-11.jpg')">-->
+    <!--header class="intro-header" style="background-image: url('img/Article-11.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -125,11 +126,11 @@ font-size: 17px;
                 </div>
             </div>
         </div>
-    </header>
+    </header-->
 
     <!-- Post Content -->
     <article>
-        <div class="container">
+        <div class="content container">
             <div class="row">
                 <div class="col-sm-4">
 			<h1>About Us</h1><br>
